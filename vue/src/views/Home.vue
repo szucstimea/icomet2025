@@ -4,14 +4,15 @@
             <a :href="link" target="_blank">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Welcome letter</h5>
             </a>
-            <p class="text-justify mb-3 font-normal text-gray-700 dark:text-gray-400">The scope of the iCOMET conference is summarized by
+            <p class="text-justify mb-3 text-gray-700 dark:text-gray-400">The scope of the iCOMET conference is summarized by
                observing that knowledge on interactions between atoms and molecules is vital to our understanding of the nanoworld, which includes
                 everything from combustion to molecular biology. Such interactions are best deciphered by studying energy transfer in dynamical processes.
                  This field has developed by studies of energy transfer of small molecules in the gas-phase. Today, we are striving toward understanding of
                   more complex problems like molecular interactions at surfaces, in the condensed phase, biological molecules and technology applications.
                    Our goal is to obtain an atomic scale understanding of dynamical events controlling complex physico-chemical phenomena. The field is characterized 
                    by advanced experimental tools and has demonstrated a close connection with highly sophisticated theoretical analysis.
-              On behalf of the Local Organizing Committee, we cordially invite you to attend the iCOMET conference held in Szeged, Hungary from 15 to 20 September 2025.</p>
+              On behalf of the Local Organizing Committee, we cordially invite you to attend the iCOMET conference held in Szeged, Hungary from 15 to 20 September 2025.
+            </p>
         </div>
     </div>
     <div class="p-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-3 lg:gap-6 place-items-center">
@@ -47,6 +48,7 @@ export default{
 </script>
 
 <style scoped>
+
   .text-shadow{
     text-shadow: 1px 1px 1px black;
   }
