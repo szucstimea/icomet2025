@@ -12,6 +12,7 @@ import Committes from "../views/Committes.vue";
 import About from "../views/About.vue";
 import Schedule from "../views/Schedule.vue";
 import Speakers from "../views/speakers.vue";
+import Venue from "../views/Venue.vue";
 
 const routes = [
     {
@@ -40,6 +41,11 @@ const routes = [
                 path: '/speakers',
                 name: 'Speakers',
                 component: Speakers
+            },
+            {
+                path: '/venue',
+                name: 'Venue',
+                component: Venue
             },
             {
                 path: '/schedule',
@@ -84,27 +90,7 @@ const routes = [
                 component: Surveys
             }
         ]
-    },
-    // {
-    //     path: '/auth',
-    //     redirect: '/login',
-    //     name: 'Auth',
-    //     component: AuthLayout,
-    //     meta: {isGuest: true},
-    //     children: [
-    //         {
-    //             path: '/login',
-    //             name: 'Login',
-    //             component: Login
-    //         },
-    //         {
-    //             path: '/register',
-    //             name: 'Register',
-    //             component: Register
-    //         }
-    //     ]
-    // }
-    
+    },    
 ];
 
 const router = createRouter({
