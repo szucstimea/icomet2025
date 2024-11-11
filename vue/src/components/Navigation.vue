@@ -5,7 +5,7 @@
           <div class="flex h-16 items-center justify-between">
             <div class="flex items-center">
               <div class="mt-10">
-                <img class="h-24 w-24" src="\img\iCOMET-Logo.png" alt="Your Company" />
+                <img class="h-24 w-24" src="/img/iCOMET-Logo.png" alt="Your Company" />
               </div>
               <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline space-x-4">
@@ -59,8 +59,7 @@
       MenuItems,
       Notification,
       Bars3Icon,
-      XMarkIcon,
-      Navigation
+      XMarkIcon
     }
   }
 </script>

@@ -45,15 +45,15 @@ export default defineComponent({
   data(){
     return{
       images: [
-        "/img/novotel/Novotel_Szeged-001.jpg",
-        "/img/novotel/Novotel_Szeged-012.jpg",
-        "/img/novotel/Novotel_Szeged-031.jpg",
-        "/img/novotel/Novotel_Szeged-034.jpg",
-        "/img/novotel/Novotel_Szeged-037.jpg",
-        "/img/novotel/Novotel_Szeged-039.jpg",
-        "/img/novotel/Novotel_Szeged-082.jpg",
-        "/img/novotel/Novotel_Szeged-085.jpg",
-        "/img/novotel/Novotel_Szeged-9924.jpg",
+        "/icomet2025/img/novotel/Novotel_Szeged-001.jpg",
+        "/icomet2025/img/novotel/Novotel_Szeged-012.jpg",
+        "/icomet2025/img/novotel/Novotel_Szeged-031.jpg",
+        "/icomet2025/img/novotel/Novotel_Szeged-034.jpg",
+        "/icomet2025/img/novotel/Novotel_Szeged-037.jpg",
+        "/icomet2025/img/novotel/Novotel_Szeged-039.jpg",
+        "/icomet2025/img/novotel/Novotel_Szeged-082.jpg",
+        "/icomet2025/img/novotel/Novotel_Szeged-085.jpg",
+        "/icomet2025/img/novotel/Novotel_Szeged-9924.jpg",
 
       ]
     }

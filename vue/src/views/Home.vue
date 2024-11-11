@@ -18,7 +18,7 @@
           by advanced experimental tools and has demonstrated a close connection with highly sophisticated theoretical
           analysis.
           On behalf of the Local Organizing Committee, we cordially invite you to attend the iCOMET conference held in
-          Szeged, Hungary from 15 to 20 September 2025.
+          Szeged, Hungary from August 31 to September 5 2025.
         </p>
       </div>
       <div class="flex flex-row text-lg lg:flex-col xl:flex-col p-5 m-auto topics">
@@ -44,10 +44,10 @@
           <Card :imgSrc="imageUniversity" link="https://u-szeged.hu/english" title="University of Szeged" content="The University of Szeged is one of Hungary's leading institutions of higher education, known for its rich academic tradition and vibrant research community."></Card>
         </div>
         <div>
-          <Card :imgSrc="imageHotel" link="/venue" title="Venue: Novotel Szeged" content="Novotel Szeged offers modern accommodations with scenic views of the Tisza River, ideally located near the city's cultural and historical attractions."></Card>
+          <Card :imgSrc="imageHotel" link="/icomet2025/venue" title="Venue: Novotel Szeged" content="Novotel Szeged offers modern accommodations with scenic views of the Tisza River, ideally located near the city's cultural and historical attractions."></Card>
         </div>
         <div>
-          <Card :imgSrc="imageSzeged" link="/venue#szeged" title="Szeged Sun City" content="Szeged is a picturesque city in Southern Hungary, renowned for its rich cultural heritage, historic architecture, and vibrant student life."></Card>
+          <Card :imgSrc="imageSzeged" link="/icomet2025/venue#szeged" title="Szeged Sun City" content="Szeged is a picturesque city in Southern Hungary, renowned for its rich cultural heritage, historic architecture, and vibrant student life."></Card>
         </div>
         <div>
           <Card :imgSrc="imageCRD" link="https://www2.sci.u-szeged.hu/czako/group.html#about" title="Computational Reaction Dynamics Research Group" content="Our group seek deeper insight into the dynamics and mechanisms of chemical reactions."></Card>
@@ -66,10 +66,10 @@ export default {
   },
   data() {
     return {
-      imageHotel: "/img/cards/Novotel_Szeged_card.jpg",
-      imageSzeged: "/img/cards/szeged_card.jpg",
-      imageUniversity: "/img/cards/rektori_card.jpg",
-      imageCRD: "/img/cards/CRDlogo_card.jpg"
+      imageHotel: "/icomet2025/img/cards/Novotel_Szeged_card.jpg",
+      imageSzeged: "/icomet2025/img/cards/szeged_card.jpg",
+      imageUniversity: "/icomet2025/img/cards/rektori_card.jpg",
+      imageCRD: "/icomet2025/img/cards/CRDlogo_card.jpg"
     };
   }
 }

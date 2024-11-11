@@ -11,61 +11,61 @@ import store from "../store";
 import Committes from "../views/Committes.vue";
 import About from "../views/About.vue";
 import Schedule from "../views/Schedule.vue";
-import Speakers from "../views/speakers.vue";
+import Speakers from "../views/Speakers.vue";
 import Venue from "../views/Venue.vue";
 
 const routes = [
     {
-        path: '/',
+        path: '/icomet2025/',
         name: 'Home',
-        redirect: '/home',
+        redirect: '/icomet2025/home',
         component: HomeLayout,
         meta: {isGuest: true},
         children: [
             {
-                path: '/home',
+                path: '/icomet2025/home',
                 name: 'Home',
                 component: Home
             },
             {
-                path: '/about',
+                path: '/icomet2025/about',
                 name: 'About',
                 component: About
             },
             {
-                path: '/committees',
+                path: '/icomet2025/committees',
                 name: 'Committees',
                 component: Committes
             },
             {
-                path: '/speakers',
+                path: '/icomet2025/speakers',
                 name: 'Speakers',
                 component: Speakers
             },
             {
-                path: '/venue',
+                path: '/icomet2025/venue',
                 name: 'Venue',
                 component: Venue
             },
             {
-                path: '/schedule',
+                path: '/icomet2025/schedule',
                 name: 'Schedule',
                 component: Schedule
             },
             {
-                path: '/auth',
-                redirect: '/login',
+                path: '/icomet2025/auth',
+                redirect: '/icomet2025/login',
                 name: 'Auth',
                 component: AuthLayout,
                 meta: {isGuest: true},
                 children: [
                     {
-                        path: '/login',
+                        path: '/icomet2025/login',
                         name: 'Login',
                         component: Login
                     },
                     {
-                        path: '/register',
+                        path: '/icomet2025/register',
                         name: 'Register',
                         component: Register
                     }
@@ -74,18 +74,18 @@ const routes = [
         ]
     },
     {
-        path: '/',
-        redirect: '/dashboard',
+        path: '/icomet2025/',
+        redirect: '/icomet2025/dashboard',
         component: DefaultLayout,
         meta: {requiresAuth: true},
         children: [
             {
-                path: '/dashboard',
+                path: '/icomet2025/dashboard',
                 name: 'Dashboard',
                 component: Dashboard
             },
             {
-                path: '/surveys',
+                path: '/icomet2025/surveys',
                 name: 'Surveys',
                 component: Surveys
             }
